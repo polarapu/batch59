@@ -51,3 +51,7 @@ git status
 git add .
 git commit -m "label" prasad
 git push
+git pull --rebase
+git push
+git pull --rebase
+git push
