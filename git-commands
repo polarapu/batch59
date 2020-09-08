@@ -157,6 +157,29 @@ esc :q
 or
 esc :wq!
 
+git status
+git config --global alias.s "status"
+git s
+
+git config --list
+git config --global alias.cl "config --list"
+git cl
+
+git log --oneline
+git config --global alias.l1 "log --oneline"
+git l1
+
+git config --list
+
+git checkout -b branch  (creating branch & checkout to branch)
+
+CONFLICTS:
+==========
+1)Abort
+2)Manual
+3) Auto merging
+
+git merge --abort
 
 
 
