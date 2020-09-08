@@ -97,7 +97,7 @@ git log -- file-name
 git log --grep="label"
 
 BRANCH
------------
+========
 
 git branch
 git branch branch-name
@@ -112,6 +112,13 @@ git push path/of/c-repo branch-name
 git branch -d branch-name  (local)
 git push origin -d branch-name  (central)
 
+git branch
+git branch -r
+git checkout -b origin/branch
+git checkout -b origin/branch
+git branch
+
+git revert cid
 
 
 TOUCH, CAT, VI
@@ -150,6 +157,29 @@ esc :q
 or
 esc :wq!
 
+git status
+git config --global alias.s "status"
+git s
+
+git config --list
+git config --global alias.cl "config --list"
+git cl
+
+git log --oneline
+git config --global alias.l1 "log --oneline"
+git l1
+
+git config --list
+
+git checkout -b branch  (creating branch & checkout to branch)
+
+CONFLICTS:
+==========
+1)Abort
+2)Manual
+3) Auto merging
+
+git merge --abort
 
 
 
