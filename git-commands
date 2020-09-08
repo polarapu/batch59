@@ -97,7 +97,7 @@ git log -- file-name
 git log --grep="label"
 
 BRANCH
------------
+========
 
 git branch
 git branch branch-name
